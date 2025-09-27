@@ -1,17 +1,14 @@
-# minimal-reproduction-template
+# 38247
 
 First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
 
-Then replace the current `h1` with the Renovate Issue/Discussion number.
-
 ## Current behavior
-
-Explain the current behavior here.
+When using `minimumReleaseAge`, when the branch already exists Renovate will open a PR with packages that have not passed the passed minimum release age
 
 ## Expected behavior
 
-Explain the expected behavior here.
+The PR is not created.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/38247
